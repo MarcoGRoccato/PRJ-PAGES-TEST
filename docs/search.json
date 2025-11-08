@@ -89,5 +89,19 @@
     "title": "Results",
     "section": "",
     "text": "This page publishes figures from the repository’s results/figures/ folder (which your .gitignore allows).\n\n\n\n\nTip: add more images to results/figures/ and embed them here with ![](figures/your_plot.png)."
+  },
+  {
+    "objectID": "results/figures/index.html",
+    "href": "results/figures/index.html",
+    "title": "Figures",
+    "section": "",
+    "text": "The images below are all files in this folder (results/figures/).\nAdd more images here and re-render to update this gallery.\nimport os, glob"
+  },
+  {
+    "objectID": "results/figures/index.html#published-figures",
+    "href": "results/figures/index.html#published-figures",
+    "title": "Figures",
+    "section": "",
+    "text": "The images below are all files in this folder (results/figures/).\nAdd more images here and re-render to update this gallery.\nimport os, glob"
   }
 ]

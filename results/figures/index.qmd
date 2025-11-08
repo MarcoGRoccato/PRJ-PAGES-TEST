@@ -1,0 +1,38 @@
+---
+title: "Figures"
+format:
+  html:
+    toc: false
+    number-sections: false
+execute:
+  echo: false
+  warning: false
+---
+
+## Published Figures
+
+The images below are all files in this folder (`results/figures/`).  
+Add more images here and re-render to update this gallery.
+
+```{python}
+import os, glob
+
+# Folder that contains this page AND the images
+folder = "results/figures"
+
+# Image extensions to include
+exts = ("*.png","*.jpg","*.jpeg","*.gif","*.svg","*.webp")
+
+# Collect matching files (sorted)
+files = []
+for pattern in exts:
+    files.extend(sorted(glob.glob(os.path.join(folder, pattern))))
+
+# Emit Markdown for each image; use just the basename so links are relative
+if files:
+    for f in files:
+        name = os.path.basename(f)
+        print(f"### {name}\n")
+        print(f"![]({name})\n")
+else:
+    print("_No figures yet. Add images to this folder and render again._")
