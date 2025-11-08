@@ -139,27 +139,18 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="published-figures" class="level2">
 <h2 class="anchored" data-anchor-id="published-figures">Published Figures</h2>
-<p>The images below are all files in this folder (<code>results/figures/</code>).<br>
-Add more images here and re-render to update this gallery.</p>
-<p>import os, glob</p>
-</section>
-<section id="folder-that-contains-this-page-and-the-images" class="level1">
-<h1>Folder that contains this page AND the images</h1>
-<p>folder = “results/figures”</p>
-</section>
-<section id="image-extensions-to-include" class="level1">
-<h1>Image extensions to include</h1>
-<p>exts = (“<em>.png”,”</em>.jpg”,“<em>.jpeg”,”</em>.gif”,“<em>.svg”,”</em>.webp”)</p>
-</section>
-<section id="collect-matching-files-sorted" class="level1">
-<h1>Collect matching files (sorted)</h1>
-<p>files = [] for pattern in exts: files.extend(sorted(glob.glob(os.path.join(folder, pattern))))</p>
-</section>
-<section id="emit-markdown-for-each-image-use-just-the-basename-so-links-are-relative" class="level1">
-<h1>Emit Markdown for each image; use just the basename so links are relative</h1>
-<p>if files: for f in files: name = os.path.basename(f) print(f”### {name}“) print(f”<img src="{name}.png" class="img-fluid">“) else: print(”<em>No figures yet. Add images to this folder and render again.</em>”)</p>
+<p>This page lists selected images in <code>results/figures/</code>.<br>
+(Add new images to this folder and add a line here for each image.)</p>
+<section id="demo.svg" class="level3">
+<h3 class="anchored" data-anchor-id="demo.svg">demo.svg</h3>
+<p><img src="demo.svg" class="img-fluid"></p>
+<!-- Example for more images:
+### another_plot.png
+![](another_plot.png)
+-->
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -95,13 +95,13 @@
     "href": "results/figures/index.html",
     "title": "Figures",
     "section": "",
-    "text": "The images below are all files in this folder (results/figures/).\nAdd more images here and re-render to update this gallery.\nimport os, glob"
+    "text": "This page lists selected images in results/figures/.\n(Add new images to this folder and add a line here for each image.)"
   },
   {
     "objectID": "results/figures/index.html#published-figures",
     "href": "results/figures/index.html#published-figures",
     "title": "Figures",
     "section": "",
-    "text": "The images below are all files in this folder (results/figures/).\nAdd more images here and re-render to update this gallery.\nimport os, glob"
+    "text": "This page lists selected images in results/figures/.\n(Add new images to this folder and add a line here for each image.)"
   }
 ]
