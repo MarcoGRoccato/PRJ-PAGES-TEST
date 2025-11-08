@@ -1,0 +1,17 @@
+---
+title: "05 — Figures"
+execute:
+  echo: true
+  warning: false
+---
+
+## Goal
+Produce publication-quality figures and tables from **cleaned/processed** data.
+Save outputs to `results/figures/` and `results/tables/` (these are tracked).
+
+### Example (R)
+```{r}
+# library(ggplot2); library(readr)
+# df <- readr::read_csv("data/processed/analysis_ready.csv")
+# p <- ggplot(df, aes(x = some_numeric)) + geom_histogram(bins = 30)
+# ggsave("results/figures/hist_some_numeric.png", p, width = 6, height = 4, dpi = 300)

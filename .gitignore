@@ -1,0 +1,93 @@
+# === OS junk ===
+.DS_Store
+Thumbs.db
+Icon?
+ehthumbs.db
+
+# === Editors/IDEs ===
+.vscode/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.idea/
+*.swp
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# === R ===
+.Rapp.history
+.Rprofile
+.Renviron
+renv/library/
+renv/staging/
+
+# === Node ===
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# === Quarto/Jupyter build artifacts ===
+.quarto/
+.quarto/_freeze/
+*.log
+*.aux
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+
+# === KEEP REPOS CODE-ONLY: never add raw/intermediate/processed data ===
+data/raw/
+data/interim/
+data/processed/
+
+# === Text *data* only inside data/ (project notes elsewhere are OK) ===
+data/**/*.txt
+
+# === Common large/sensitive data formats (block by default) ===
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sav
+*.sas7bdat
+*.rds
+*.rda
+*.parquet
+*.feather
+*.sqlite
+*.db
+*.edf
+*.bdf
+*.fif
+*.set
+*.vhdr
+*.eeg
+*.vmrk
+*.wav
+*.flac
+*.mp3
+*.mp4
+*.mov
+*.avi
+*.jzip
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.tgz
+
+# === Allow publishable artifacts under results (IMAGES ONLY) ===
+!results/figures/**
+
+/.quarto/
+**/*.quarto_ipynb

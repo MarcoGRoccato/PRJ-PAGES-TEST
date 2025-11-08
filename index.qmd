@@ -1,0 +1,20 @@
+---
+title: "PRJ-PAGES-TEST — Overview"
+format:
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Welcome
+
+This is a public test of the template, ignores, and GitHub Pages.
+
+### Quick Links
+- [01 — Import](analysis/notebooks/01-import.qmd)
+- [Manuscript](manuscript/paper.qmd)
+- [Figures folder](results/figures/)
+
+### Policy
+- **Data** lives in `D:/RESEARCH_HUB/04_DATA/**` and is **never committed**.
+- This repo contains **code, notebooks, and publishable figures** only.

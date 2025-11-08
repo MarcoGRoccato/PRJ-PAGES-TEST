@@ -1,0 +1,10 @@
+---
+title: "01 — Import"
+execute:
+  echo: true
+  warning: false
+---
+
+```{r}
+# R setup (optional)
+# library(tidyverse)

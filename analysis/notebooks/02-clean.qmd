@@ -1,0 +1,14 @@
+---
+title: "02 — Clean"
+execute:
+  echo: true
+  warning: false
+---
+
+## Goals
+Describe the cleaning rules you apply (renaming columns, filtering rows, handling missing values, type conversions).
+
+```{r}
+# R helpers (optional)
+# library(dplyr)
+# library(readr)

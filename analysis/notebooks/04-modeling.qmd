@@ -1,0 +1,16 @@
+---
+title: "04 — Modeling"
+execute:
+  echo: true
+  warning: false
+---
+
+## Goals
+Fit baseline and comparison models on **cleaned** data and record metrics.
+
+### Load data
+```{r}
+# R (optional)
+# library(readr); library(dplyr)
+# df <- readr::read_csv("data/processed/analysis_ready.csv")
+# glimpse(df)

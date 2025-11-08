@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PRJ-PAGES-TEST"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Notebooks
+        href: analysis/notebooks/01-import.qmd
+      - text: Results
+        href: results/
+
+format:
+  html:
+    toc: true
+    number-sections: true
+
+execute:
+  freeze: auto
+
+resources:
+  - ".nojekyll"

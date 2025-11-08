@@ -1,0 +1,9 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="480" height="320" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="480" height="320" fill="#ffffff"></rect>
+  <text x="24" y="48" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#222">Demo Figure (OK to commit)</text>
+  <rect x="24" y="80" width="432" height="24" fill="#4a90e2"></rect>
+  <rect x="24" y="120" width="360" height="24" fill="#7ed321"></rect>
+  <rect x="24" y="160" width="280" height="24" fill="#f5a623"></rect>
+  <text x="24" y="220" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#555">Only figures in results/figures are allowed by .gitignore (Option A)</text>
+</svg>
