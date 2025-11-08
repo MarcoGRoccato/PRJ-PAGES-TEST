@@ -1,0 +1,16 @@
+---
+title: "Results"
+format:
+  html:
+    toc: true
+    number-sections: true
+---
+
+## Figures
+
+This page publishes figures from the repository’s `results/figures/` folder (which your `.gitignore` allows).
+
+### Demo
+![](figures/demo.svg)
+
+> Tip: add more images to `results/figures/` and embed them here with `![](figures/your_plot.png)`.
