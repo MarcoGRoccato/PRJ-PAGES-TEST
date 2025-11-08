@@ -1,0 +1,20 @@
+---
+title: "Figures"
+format:
+  html:
+    toc: false
+    number-sections: false
+---
+
+## Published Figures
+
+This page lists selected images in `results/figures/`.  
+(Add new images to this folder and add a line here for each image.)
+
+### demo.svg
+![](demo.svg)
+
+<!-- Example for more images:
+### another_plot.png
+![](another_plot.png)
+-->
