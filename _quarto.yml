@@ -12,6 +12,8 @@ website:
         href: analysis/notebooks/01-import.qmd
       - text: Results
         href: results/
+      - text: Manuscript
+        href: manuscript/paper.qmd
 
 format:
   html:
