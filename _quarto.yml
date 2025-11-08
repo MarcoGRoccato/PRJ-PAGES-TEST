@@ -21,5 +21,7 @@ format:
 execute:
   freeze: auto
 
+# copy these into /docs on render so they publish with the site
 resources:
   - ".nojekyll"
+  - "results/figures/**"
